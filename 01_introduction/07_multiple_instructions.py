@@ -8,11 +8,11 @@ print("this prints second")
 print("this prints last")
 
 Each print() instruction prints on a new line.
-
-The dialogue in our game needs to be printed in the correct order! 
-In the first level, our hero encounters a talking owl named Jax. 
-Let's display their conversation to the user through text.
 """
+
+# The dialogue in our game needs to be printed in the correct order! 
+# In the first level, our hero encounters a talking owl named Jax. 
+# Let's display their conversation to the user through text.
 
 # Assignment
 # Rearrange the code so that it prints in the correct order.

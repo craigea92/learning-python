@@ -25,7 +25,6 @@ As you may have guessed, for this structure to work, optional arguments that hav
 # Getting punched does 50 damage. Getting slashed does 100 damage.
 
 # Solution
-
 def get_punched(health, armor=0):
     damage_taken = 50 - armor
     health -= damage_taken
@@ -36,6 +35,7 @@ def get_slashed(health, armor=0):
     health -= damage_taken
     return health
 
+# Tests
 def test(health, armor):
     print(f"Health: {health}, Armor: {armor}")
     print(f"Health after punch: {get_punched(health, armor)}")

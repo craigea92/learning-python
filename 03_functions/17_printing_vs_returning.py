@@ -31,6 +31,7 @@ def get_title(first_name, last_name, job):
     title = first_name + " " + last_name + " the " + job
     return title
 
+# Tests
 def test(first_name, last_name, job):
     title = get_title(first_name, last_name, job)
     print("First name:", first_name)

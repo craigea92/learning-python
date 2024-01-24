@@ -26,6 +26,7 @@ def total_xp(level, xp_to_add):
     total_xp = xp_to_add + current_level
     return total_xp
 
+# Tests
 run_cases = [
     (1, 200, 300),
     (2, 50, 250),

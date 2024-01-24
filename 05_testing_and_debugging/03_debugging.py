@@ -17,6 +17,7 @@ def take_magic_damage(health, resist, amp, spell_power):
     health -= total_damage
     return health
 
+# Tests
 run_cases = [
     (100, 5, 2, 20, 65),
     (200, 10, 1, 25, 185),

@@ -16,6 +16,7 @@ def enchant_and_attack(player_health, damage, weapon):
     enchanted_weapon = "enchanted " + weapon
     return enchanted_weapon, new_health
 
+# Tests
 def test(player_health, damage, weapon):
     print("The victim has", player_health, "health.")
     print(weapon, "does", damage, "damage. Enchanting and attacking...")

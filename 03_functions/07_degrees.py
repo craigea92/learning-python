@@ -14,6 +14,7 @@ def to_celsius(fahrenheit):
   celsius = 5/9 * (fahrenheit-32)
   return celsius
 
+# Tests
 def test(fahrenheit_input):
     celcius_rounded = round(to_celsius(fahrenheit_input), 2)
     print(fahrenheit_input, "degrees fahrenheit is", celcius_rounded, "degrees celsius")

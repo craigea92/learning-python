@@ -13,6 +13,7 @@ def hours_to_seconds(hours):
     seconds = hours * 3600
     return seconds
 
+# Tests
 def test(hours):
     secs = hours_to_seconds(hours)
     print(hours, "hours is", secs, "seconds")

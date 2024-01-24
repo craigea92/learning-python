@@ -17,6 +17,7 @@ def unlock_achievement(before_xp, ach_xp, ach_name):
     alert = "Achievement Unlocked: " + ach_name
     return after_xp, alert
 
+# Tests
 run_cases = [
     (100, 20, "Speedster", (120, "Achievement Unlocked: Speedster")),
     (200, 50, "Killer", (250, "Achievement Unlocked: Killer")),

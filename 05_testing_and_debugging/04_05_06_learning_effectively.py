@@ -23,3 +23,22 @@ Don't be afraid to add print() statements while writing code, it may help later 
 # For fun!
 
 # Answer = Improve readability and reduce complexities
+
+# Question 02
+
+# Temporarily adding print() statements is a good way to...
+
+# ... submit your code to the grader
+# ... quickly test and debug small pieces of code
+# ... get carpal tunnel syndrome
+
+# Answer = ... quickly test and debug small pieces of code
+
+# Question 03
+
+# When you're stuck, which should you do first?
+
+# Complain how hard coding is
+# Research the issue using sources such as stack overflow
+
+# Answer = Research the issue using sources such as stack overflow

@@ -22,6 +22,7 @@ def get_test_score(answer_sheet, student_answers):
     score = (correct / total) * 100
 
     return name, score
+
 # Tests
 run_cases = [
     (
@@ -317,7 +318,6 @@ submit_cases = run_cases + [
     ),
 ]
 
-
 def test(input1, input2, expected_output):
     print("---------------------------------")
     print(f"Inputs:\nanswer_sheet: {input1}\nstudent_answers: {input2}")
@@ -329,7 +329,6 @@ def test(input1, input2, expected_output):
         return True
     print("Fail")
     return False
-
 
 def main():
     passed = 0
@@ -345,7 +344,6 @@ def main():
     else:
         print("============= FAIL ==============")
     print(f"{passed} passed, {failed} failed")
-
 
 test_cases = submit_cases
 if "__RUN__" in globals():

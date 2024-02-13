@@ -106,7 +106,6 @@ submit_cases = run_cases + [
     ),
 ]
 
-
 def test(input, expected_output):
     print("---------------------------------")
     print(f"Input list: {input}")
@@ -118,7 +117,6 @@ def test(input, expected_output):
         return True
     print("Fail")
     return False
-
 
 def main():
     passed = 0
@@ -134,7 +132,6 @@ def main():
     else:
         print("============= FAIL ==============")
     print(f"{passed} passed, {failed} failed")
-
 
 test_cases = submit_cases
 if "__RUN__" in globals():

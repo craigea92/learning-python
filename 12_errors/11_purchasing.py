@@ -2,8 +2,6 @@
 PURCHASING
 
 You've been asked to work on the checkout flow of a popular e-commerce site.
-
-
 """
 
 # Assignment
@@ -31,7 +29,6 @@ submit_cases = run_cases + [
     (0.00, 0.00, 0.00),
 ]
 
-
 def test(price, money_available, expected_output, expected_err=None):
     print("---------------------------------")
     print(f"Inputs:")
@@ -53,7 +50,6 @@ def test(price, money_available, expected_output, expected_err=None):
     print("Fail")
     return False
 
-
 def main():
     passed = 0
     failed = 0
@@ -68,7 +64,6 @@ def main():
     else:
         print("============= FAIL ==============")
     print(f"{passed} passed, {failed} failed")
-
 
 test_cases = submit_cases
 if "__RUN__" in globals():

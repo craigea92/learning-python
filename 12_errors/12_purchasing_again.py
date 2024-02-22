@@ -1,7 +1,7 @@
 """
 PURCHASING AGAIN
 
-
+Now we need to use our purchase function to process an entire list of purchase orders.
 """
 
 # Assignment
@@ -51,11 +51,9 @@ def main():
     for leftover in leftovers:
         print(f" * {leftover:.2f}")
 
-
 def purchase(price, money_available):
     if money_available < price:
         raise Exception(f"{money_available:.2f} is not enough for {price:.2f}")
     return money_available - price
-
 
 main()
